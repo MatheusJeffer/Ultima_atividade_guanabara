@@ -7,6 +7,7 @@ from exerc115 import Opcao
 
 
 select = 1
+
 while select != 4:
    print('\033[0;31m=-\033[0m'*20)
    print('           \033[0;30mMENU DE CADASTRO\033[0m')
@@ -38,3 +39,4 @@ while select != 4:
    
    if select == 3:
        os.remove('Pessoas_cadastradas.txt')
+    
